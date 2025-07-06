@@ -1,7 +1,8 @@
 template <typename type>
 struct Hash_List {
-    type* next, previous;
-    type value;
+    type    *next, 
+            *previous, 
+            value;
 public:
     void    add(type& elem),
             remove(type& elem),
